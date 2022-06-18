@@ -1,0 +1,38 @@
+.todorow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: white;
+  background: #1f4037;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.icon {
+  color: white;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.highlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: white;
+  background: red;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
